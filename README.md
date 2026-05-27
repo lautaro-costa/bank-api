@@ -2,8 +2,6 @@
 
 API REST de un sistema bancario digital desarrollada con **Java 21** y **Spring Boot 3.5**. Permite gestionar usuarios, cuentas bancarias y operaciones financieras con autenticación segura mediante JWT.
 
----
-
 ## ✨ Características
 
 - **Autenticación y autorización** con JWT y roles (ADMIN / CLIENTE)
@@ -18,8 +16,6 @@ API REST de un sistema bancario digital desarrollada con **Java 21** y **Spring 
 - **Manejo de errores global** con respuestas consistentes y descriptivas
 - **Usuario ADMIN** creado automáticamente al iniciar la app
 - **Documentación interactiva** con Swagger UI
-
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -36,8 +32,6 @@ API REST de un sistema bancario digital desarrollada con **Java 21** y **Spring 
 
 * **JUnit y Mockito** para la implementación de pruebas unitarias.
 * **Docker** para la contenedorización de la aplicación.
-
----
 
 ## 📁 Estructura del proyecto
 
@@ -78,8 +72,6 @@ src/main/java/com/costa/bankapi/
 └── DataInitializer      # Crea el usuario ADMIN al iniciar
 ```
 
----
-
 ## ⚙️ Requisitos previos
 
 Antes de ejecutar el proyecto, asegurate de tener instalado:
@@ -88,8 +80,6 @@ Antes de ejecutar el proyecto, asegurate de tener instalado:
 - **Maven** para la gestión de dependencias
 - **PostgreSQL** 
 - **Docker** *(opcional, para despliegue con contenedores — próximamente)*
-
----
 
 ## 🚀 Instalación y configuración
 
@@ -141,8 +131,6 @@ Al iniciar la app por primera vez se crea automáticamente un usuario administra
 | Email | admin@bankapi.com |
 | Contraseña | admin1234 |
 
----
-
 ## 📋 Endpoints principales
 
 ### Autenticación (públicos)
@@ -182,8 +170,6 @@ Al iniciar la app por primera vez se crea automáticamente un usuario administra
 | GET | `/admin/usuarios` | Ver todos los usuarios |
 | PUT | `/admin/cuentas/{id}/estado?estado=INACTIVA` | Activar/desactivar cuenta |
 
----
-
 ## 📖 Documentación
 
 La API cuenta con documentación interactiva generada automáticamente con Swagger UI.
@@ -200,8 +186,6 @@ Para probar endpoints protegidos desde Swagger:
 3. Hacé clic en **Authorize** arriba a la derecha
 4. Pegá el token y hacé clic en **Authorize**
 
----
-
 ## 🔐 Seguridad
 
 - Las contraseñas se encriptan con **BCrypt** antes de guardarse
@@ -210,19 +194,13 @@ Para probar endpoints protegidos desde Swagger:
 - Las cuentas nunca se eliminan — se desactivan (**Soft Delete**)
 - Las transferencias son **atómicas** — si algo falla, se revierten todos los cambios
 
----
-
 ## 🧪 Pruebas
 
 *Próximamente — tests unitarios con JUnit 5 y Mockito.*
 
----
-
 ## 🐳 Docker
 
 *Próximamente — despliegue con Docker y Docker Compose.*
-
----
 
 ## 👨‍💻 Autor
 
