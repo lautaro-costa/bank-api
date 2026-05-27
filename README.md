@@ -86,7 +86,7 @@ Antes de ejecutar el proyecto, asegurate de tener instalado:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tucuenta/bank-api.git
+git clone https://github.com/lautaro-costa/bank-api.git
 cd bank-api
 ```
 
@@ -204,4 +204,4 @@ Para probar endpoints protegidos desde Swagger:
 
 ## 👨‍💻 Autor
 
-**Lautaro Costa** — [GitHub](https://github.com/tucuenta)
+**Lautaro Costa** — [GitHub](https://github.com/lautaro-costa)
