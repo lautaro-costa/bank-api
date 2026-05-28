@@ -1,6 +1,6 @@
 # 🏦 Bank API
 
-API REST de un sistema bancario digital desarrollada con **Java 21** y **Spring Boot 3.5**. Permite gestionar usuarios, cuentas bancarias y operaciones financieras con autenticación segura mediante JWT.
+Bank API es una API REST para un sistema bancario digital desarrollada con **Java 21** y **Spring Boot 3.5**. Permite gestionar usuarios, cuentas bancarias y operaciones financieras con autenticación segura mediante JWT.
 
 ## ✨ Características
 
